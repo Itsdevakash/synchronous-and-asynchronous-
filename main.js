@@ -1,11 +1,11 @@
-// Synchronous
+// Synchronous line by line chlta aur error aane aage wala code nhi run hota hai 
 console.log("Start")
 console.log("Task 1")
 console.log("End")
 // Start → Task 1 → End
 
 
-// Asynchronous
+// Asynchronous ye line by line nhi chlta  wait nhi kre ga wo aage chl jayega 
 console.log("Start")
 setTimeout(() => {
  console.log("Task 1")
